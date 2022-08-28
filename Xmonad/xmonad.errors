@@ -1,0 +1,7 @@
+
+xmonad.hs:32:3: warning: [-Wtabs]
+    Tab character found here, and in 51 further locations.
+    Please use spaces instead.
+   |
+32 |         sh <- io $ getWMNormalHints d w
+   |   ^^^^^^

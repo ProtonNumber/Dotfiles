@@ -1,0 +1,39 @@
+{-# LANGUAGE OverloadedStrings #-}
+import System.Taffybar
+import System.Taffybar.Information.CPU
+import System.Taffybar.SimpleConfig
+import System.Taffybar.Widget
+import System.Taffybar.Widget.Text.CPUMonitor
+import System.Taffybar.Widget.Text.MemoryMonitor
+
+background0 = (28,31,38,255)
+background1 = (45,50,61,255)
+white = (219,216,218,255)
+grey = (116,121,129,255)
+green = (68,191,68,255)
+red = (229,57,96,255)
+orange = (226,134,81,255)
+
+cpuCallback = do
+  (_, systemLoad, totalLoad) <- cpuLoad
+  return [ totalLoad, systemLoad ]
+
+myClockConfig = defaultClockConfig
+  { clockFormatString = "%R %d/%m/%y "
+  }
+
+main = do
+  let clock = textClockNewWith myClockConfig
+      cpu = textCpuMonitorNew "$total$% " 1
+      mem = textMemoryMonitorNew "$used$ " 1
+      workspaces = workspacesNew defaultWorkspacesConfig
+      tray = sniTrayThatStartsWatcherEvenThoughThisIsABadWayToDoIt
+      simpleConfig = defaultSimpleTaffyConfig
+                       { startWidgets = [ workspaces ]
+                       , endWidgets = [ clock , cpu, mem, tray ]
+                       , barPosition = Top
+                       , barPadding = 10
+                       , barHeight = 26
+                       , widgetSpacing = 0
+                       }
+  simpleTaffybar simpleConfig
