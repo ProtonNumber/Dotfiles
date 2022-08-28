@@ -43,7 +43,7 @@
   (getenv
    (if (equal system-type 'windows-nt) "USERNAME" "USER")))
 
-(message "[Prelude] Prelude is powering up... Be patient, Master %s!" prelude-user)
+(message "[Prelude] Prelude is powering up... Be patient, %s!" prelude-user)
 
 (when (version< emacs-version "25.1")
   (error "[Prelude] Prelude requires GNU Emacs 25.1 or newer, but you're running %s" emacs-version))
