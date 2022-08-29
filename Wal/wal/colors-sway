@@ -1,0 +1,21 @@
+set $wallpaper /home/will/.config/wpg/wallpapers/City.jpg
+
+set $background #1c1f26
+set $foreground #dbd8da
+
+set $color0 #1c1f26
+set $color1 #e37e74
+set $color2 #a2e374
+set $color3 #325491
+set $color4 #74a2e3
+set $color5 #99B0D9
+set $color6 #90B4E7
+set $color7 #dbd8da
+set $color8 #2d323d
+set $color9 #e37e74
+set $color10 #a2e374
+set $color11 #325491
+set $color12 #74A2E3
+set $color13 #99B0D9
+set $color14 #90B4E7
+set $color15 #dbd8da

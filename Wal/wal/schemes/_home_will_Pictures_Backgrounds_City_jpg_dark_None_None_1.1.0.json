@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/will/Pictures/Backgrounds/City.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#03050D",
+        "foreground": "#dbd8da",
+        "cursor": "#dbd8da"
+    },
+    "colors": {
+        "color0": "#03050D",
+        "color1": "#325491",
+        "color2": "#52689E",
+        "color3": "#6487B6",
+        "color4": "#74A2E3",
+        "color5": "#99B0D9",
+        "color6": "#90B4E7",
+        "color7": "#dbd8da",
+        "color8": "#999798",
+        "color9": "#325491",
+        "color10": "#52689E",
+        "color11": "#6487B6",
+        "color12": "#74A2E3",
+        "color13": "#99B0D9",
+        "color14": "#90B4E7",
+        "color15": "#dbd8da"
+    }
+}
