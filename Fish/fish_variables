@@ -2,6 +2,7 @@
 # VERSION: 3.0
 SETUVAR __fish_initialized:3400
 SETUVAR _fish_abbr_edc:emerge\x20\x2datv\x20\x2d\x2ddepclean
+SETUVAR _fish_abbr_emacs:emacs\x20\x2dnw
 SETUVAR _fish_abbr_esc:emerge\x20\x2d\x2dsync
 SETUVAR _fish_abbr_eup:emerge\x20\x2d\x2dask\x20\x2d\x2dverbose\x20\x2d\x2dupdate\x20\x2d\x2ddeep\x20\x2d\x2dnewuse\x20\x2d\x2dbacktrack\x3d30\x20\x40world
 SETUVAR _fish_abbr_la:ls\x20\x2da
