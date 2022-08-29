@@ -10,7 +10,7 @@ ln -s ~/Dotfiles/Bash/bashrc ~/.bashrc
 ln -s ~/Dotfiles/Fish ~/.config/fish
 
 # Wal
-ln -s ~/Dotfiles/Wal ~/.config/wal
+ln -s ~/Dotfiles/Wal ~/.cache/wal
 
 # Emacs
 ln -s ~/Dotfiles/Emacs ~/.emacs.d
