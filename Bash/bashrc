@@ -38,3 +38,4 @@ source ~/.cache/wal/colors-tty.sh
 # Use fish in place of bash
 # keep this line at the bottom of ~/.bashrc
 [ -x /bin/fish ] && SHELL=/bin/fish exec fish
+. "$HOME/.cargo/env"
