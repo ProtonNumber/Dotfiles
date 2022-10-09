@@ -1,0 +1,1 @@
+("~/Documents/Uni/Year 3/" "~/Dotfiles/Emacs/" "~/Projects/Bob/firmware/lib/spiffs/" "~/Projects/taffybar/" "~/Projects/Bob/" "~/Dotfiles/" "~/.emacs.d/" "~/Projects/Bob/kicad/YAR-Kicad-Libs/")
