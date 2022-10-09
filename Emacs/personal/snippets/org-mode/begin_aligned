@@ -2,6 +2,6 @@
 # name: begin_aligned
 # key: <ba
 # --
-/begin{align*}
+\begin{align*}
 $0
-/end{align*}
+\end{align*}

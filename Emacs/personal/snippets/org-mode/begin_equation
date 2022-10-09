@@ -2,6 +2,6 @@
 # name: begin_equation
 # key: <be
 # --
-/begin{equation*}
+\begin{equation*}
 $0
-/end{equation*}
+\end{equation*}
