@@ -11,3 +11,4 @@ The install script is kinda broken, I need to fix this *at some point*.
 
 - Emacs config is based on [Emacs prelude](https://github.com/bbatsov/prelude)
 - [ADI1090x's amazing rofi menus](https://github.com/adi1090x/rofi)
+- XMonad and Taffybar configs cobbled together from... a lot of people. I dont actually know haskell.
